@@ -27,5 +27,8 @@ class ViewModel: NSObject {
     var mnfgYear:String {
         return self.mobile.MnfgYear!
     }
+    var image:String {
+        return self.mobile.photoName!
+    }
     
 }

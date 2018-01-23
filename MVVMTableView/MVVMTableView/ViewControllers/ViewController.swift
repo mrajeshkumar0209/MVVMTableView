@@ -40,7 +40,23 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         cell.company?.text = mobileViewModel.company
         cell.year?.text = mobileViewModel.mnfgYear
         
+        let imageString:String = mobileViewModel.image
+        print(imageString)
+        cell.deviceImage.image = UIImage(named:imageString)
+        
+        
         return cell
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 172
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        tableView.deselectRow(at: indexPath, animated: false)
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "DetailsVC") as! DetailsVC
+        myVC.vmIndex = indexPath.row
+        navigationController?.pushViewController(myVC, animated: true)
+        
     }
 
     /*

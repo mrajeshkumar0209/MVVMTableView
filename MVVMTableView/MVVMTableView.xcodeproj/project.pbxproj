@@ -22,6 +22,7 @@
 		F20618BF20166BBE00D110B0 /* MobileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20618BC20166BBE00D110B0 /* MobileModel.swift */; };
 		F20618C320167B5600D110B0 /* MobileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20618C220167B5600D110B0 /* MobileCell.swift */; };
 		F20618C520167FE400D110B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20618C420167FE300D110B0 /* ViewController.swift */; };
+		F2C63E3C20179631001EB62F /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C63E3B20179631001EB62F /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F20618BC20166BBE00D110B0 /* MobileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileModel.swift; sourceTree = "<group>"; };
 		F20618C220167B5600D110B0 /* MobileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCell.swift; sourceTree = "<group>"; };
 		F20618C420167FE300D110B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C63E3B20179631001EB62F /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				F20618C420167FE300D110B0 /* ViewController.swift */,
 				F20618C220167B5600D110B0 /* MobileCell.swift */,
+				F2C63E3B20179631001EB62F /* DetailsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20618C520167FE400D110B0 /* ViewController.swift in Sources */,
+				F2C63E3C20179631001EB62F /* DetailsVC.swift in Sources */,
 				F20618B920166B9F00D110B0 /* ViewModel.swift in Sources */,
 				F20618BD20166BBE00D110B0 /* MobileModel.swift in Sources */,
 				F20618C320167B5600D110B0 /* MobileCell.swift in Sources */,

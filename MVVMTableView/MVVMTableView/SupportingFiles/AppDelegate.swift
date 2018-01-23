@@ -13,11 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     let mobiles: [ViewModel] = {
-        let iphonex = MobileModel(name: "iPhone", model: "x", company: "Apple", Year: "2017")
-        let iphone8 = MobileModel(name: "iPhone", model: "8", company: "Apple", Year: "2018")
-        let samsung = MobileModel(name: "Samsung", model: "S8", company: "Samsung", Year: "2011")
-        let lenovo = MobileModel(name: "Lenovo", model: "G3", company: "Lenovo", Year: "2016")
-        let xiomi = MobileModel(name: "Xiomi", model: "123", company: "Xiomi", Year: "2015")
+    let iphonex = MobileModel(name: "iPhone", model: "X", company: "Apple", Year: "2018",image: "iphoneX")
+    let iphone8 = MobileModel(name: "iPhone", model: "8", company: "Apple", Year: "2017", image: "iphone8")
+    let samsung = MobileModel(name: "Samsung", model: "S8", company: "Samsung", Year: "2011",image: "samsungS8")
+    let lenovo = MobileModel(name: "Lenovo", model: "S60", company: "Lenovo", Year: "2016",image: "lenovo-s60")
+    let xiomi = MobileModel(name: "Xiaomi", model: "5A", company: "Xiaomi", Year: "2015",image: "xiaomi5A")
        
         return [ViewModel(mobile:iphonex),ViewModel(mobile:iphone8),ViewModel(mobile:samsung),ViewModel(mobile:lenovo),ViewModel(mobile:xiomi)]
     }()

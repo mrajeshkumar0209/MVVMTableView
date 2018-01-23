@@ -13,11 +13,13 @@ class MobileModel: NSObject {
     var MobileName:String?
     var MnfgYear:String?
     var MnfgCompany:String?
+    var photoName:String?
     
-    init(name:String,model:String,company:String,Year:String ) {
+    init(name:String,model:String,company:String,Year:String,image:String ) {
         self.MobileName = name
         self.ModelName = model
         self.MnfgCompany = company
         self.MnfgYear = Year
+        self.photoName = image
     }
 }
