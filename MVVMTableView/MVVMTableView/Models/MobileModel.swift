@@ -23,3 +23,15 @@ class MobileModel: NSObject {
         self.photoName = image
     }
 }
+
+//class AppModel: NSObject {
+//    var AppName:String?
+//    var appDesc:String?
+//    var photoName:String?
+//    init(name:String,desc:String,image:String ) {
+//        self.AppName = name
+//        self.appDesc = desc
+//        self.photoName = image
+//    }
+//}
+
