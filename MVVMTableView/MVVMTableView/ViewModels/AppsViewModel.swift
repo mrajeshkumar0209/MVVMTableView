@@ -47,9 +47,4 @@ class AppsViewModel: NSObject {
     func appSelectedToDisplay(for indexPath: IndexPath) -> NSDictionary {
         return (apps?[indexPath.row])! 
     }
-    
-    
-    
-    
-    
 }
